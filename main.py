@@ -9,10 +9,10 @@ import threading
 import sys
 
 root = Tk()
-root.title('TamuPC')
+root.title('TamuPC-2000')
 
 # Creating a label widget (title)
-title = Label(root, text='TamuPC 2000')
+title = Label(root, text='TamuPC 2000', font='TKHeadingFont 24 bold', fg='red')
 title.pack(padx=20, pady=20)
 blank = Label(root)
 blank.pack()
