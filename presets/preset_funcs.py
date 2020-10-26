@@ -7,16 +7,21 @@ def play_preset1():
     play(lower_volume)
 
 def play_preset2():
-    audio_snippit = AudioSegment.from_mp3('./Nas-Is-Like.mp3')
-    lower_volume = audio_snippit - 10
+    audio_snippit = AudioSegment.from_mp3('fo_shizzle.mp3')
+    lower_volume = audio_snippit + 10
     play(lower_volume)
 
 def play_preset3():
-    audio_snippit = AudioSegment.from_mp3('Nas-NY-State-Of-Mind.mp3')
-    lower_volume = audio_snippit - 10
+    audio_snippit = AudioSegment.from_mp3('weed.mp3')
+    lower_volume = audio_snippit + 10
     play(lower_volume)
 
 def play_preset4():
-    audio_snippit = AudioSegment.from_mp3('The-6th-Sense.mp3')
-    lower_volume = audio_snippit - 10
+    audio_snippit = AudioSegment.from_mp3('oh_yea.mp3')
+    lower_volume = audio_snippit + 10
     play(lower_volume)
+
+def play_preset5():
+    audio_snippit = AudioSegment.from_mp3('airhorn.mp3')
+    higher_volume = audio_snippit + 10
+    play(higher_volume)
